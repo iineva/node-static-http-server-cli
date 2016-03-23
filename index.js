@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const history = require('connect-history-api-fallback');
 const exStatic = require('express-static');
 const app = require('express')();
