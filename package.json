@@ -1,0 +1,33 @@
+{
+  "name": "static-http-server-cli",
+  "version": "0.0.1",
+  "description": "Static HTTP server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": {
+    "email": "ineva@qq.com",
+    "name": "Steven",
+    "url": "http://ineva.cn"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "connect-history-api-fallback": "^1.2.0",
+    "express": "^4.13.4",
+    "express-static": "^1.0.3"
+  },
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "bin": {
+    "static-http-server": "index.js"
+  },
+  "directories": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iineva/static-http-server-cli"
+  }
+}
