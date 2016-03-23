@@ -5,7 +5,7 @@ const program = require('commander');
 const path = require('path');
 
 program
-  .version('0.0.1')
+  .version('0.0.2')
 	.option('-S, --single-page-application', 'run as a SPA server')
   .option('-s, --src <string>', 'source path [./]', './')
   .option('-h, --host <string>', 'host [127.0.0.1]', '127.0.0.1')
