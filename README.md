@@ -1,4 +1,4 @@
-# node-static-http-server
+# node-static-http-server-cli
 Static HTTP server on NodeJS.
 
 # Usage
